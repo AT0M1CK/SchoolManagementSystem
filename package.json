@@ -1,0 +1,27 @@
+{
+  "name": "nodestudy",
+  "version": "1.0.0",
+  "description": "nodejs tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AT0M1CK/NodeStudy.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "akshayanand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AT0M1CK/NodeStudy/issues"
+  },
+  "homepage": "https://github.com/AT0M1CK/NodeStudy#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
+  }
+}
