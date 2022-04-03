@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build" :"node src/index.js"
+    "build": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/AT0M1CK/NodeStudy#readme",
   "dependencies": {
+    "express": "^4.17.3",
     "lodash": "^4.17.21"
   }
 }
