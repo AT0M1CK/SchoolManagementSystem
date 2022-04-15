@@ -1,4 +1,5 @@
 const express = require("express");
+var app = express();
 
 // routes
 const register = require("./routes/register");
@@ -8,9 +9,8 @@ const getStudent = require("./routes/get-student");
 const editStudent = require("./routes/edit-student");
 const deleteStudent = require("./routes/delete-student");
 const approveStudent = require("./routes/approve-student");
-const mysql = require("mysql");
-var app = express();
 
+app.use(express.json());
 app.use("/register",register);
 app.use("/login",login);
 app.use("/get-student",getStudent);
