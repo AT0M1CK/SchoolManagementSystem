@@ -24,6 +24,7 @@ class DatabaseAdapter {
       if (err) {
         throw err;
       }
+      //console.log("Query result",result);
       return result;
     });
   }
