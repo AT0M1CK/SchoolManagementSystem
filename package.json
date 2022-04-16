@@ -2,10 +2,10 @@
   "name": "nodestudy",
   "version": "1.0.0",
   "description": "nodejs tutorial",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test",
-    "build": "node src/index.js"
+    "build": "node src/server.js"
   },
   "repository": {
     "type": "git",
